@@ -121,8 +121,6 @@ async function showMealDetails(id) {
 }
 
 
-
-
 // its shows all favourites meals in favourites body
 async function showFavMealList() {
     let arr=JSON.parse(localStorage.getItem("favouritesList"));
